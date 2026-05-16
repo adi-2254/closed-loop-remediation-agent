@@ -1,0 +1,27 @@
+#
+# Copyright (C) 2012-2024 Intel Corporation.
+# SPDX-License-Identifier: MIT
+#
+
+TEST_TOOL_ROOTS := MyPinTool
+
+ifeq ($(TARGET_OS),linux)
+    TEST_ROOTS := nopincc
+endif
+ifeq ($(TARGET_OS),windows)
+    TEST_ROOTS :=
+endif
+
+TOOL_ROOTS :=
+SA_TOOL_ROOTS :=
+APP_ROOTS := 
+OBJECT_ROOTS :=
+DLL_ROOTS :=
+LIB_ROOTS :=
+
+RUNNABLE_TESTS := $(TEST_TOOL_ROOTS) $(TEST_ROOTS)
+SANITY_SUBSET := $(TEST_TOOL_ROOTS) $(TEST_ROOTS)
+
+nopincc.test:  makefile.nopincc
+	$(MAKE) -f makefile.nopincc TARGET=$(TARGET) clean
+	$(MAKE) -f makefile.nopincc TARGET=$(TARGET)

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/user/pin_kit/source/include/pin",
+                "/home/user/pin_kit/source/include/pin/gen",
+                "/home/user/pin_kit/extras/components/include",
+                "/home/user/pin_kit/extras/crt/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
