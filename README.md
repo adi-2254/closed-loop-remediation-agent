@@ -1,6 +1,6 @@
 # Autonomous Systems Profiler ⚡
 
-An automated, closed-loop agent that bridges the gap between binary-level execution and source-level algorithmic remediation. Designed to dynamically profile C/C++ binaries, surgically extract bottleneck functions, and autonomously optimize algorithmic complexity using Large Language Models (LLMs)
+An automated, closed-loop agent that bridges the gap between binary-level execution and source-level algorithmic remediation. Designed to dynamically profile C/C++ binaries, surgically extract bottleneck functions, and autonomously optimize algorithmic complexity using Large Language Models (LLMs).
 
 **Developed by:** Aditya Raj & Aakash Jaisinghani  
 **Supervised by:** Prof. Neeraj Goel  
